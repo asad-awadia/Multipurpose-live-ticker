@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Ticker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/poly.css">
+</head>
+<body>
+
+
+<h4 id="type" class="grid">Bitcoin</h4>
+
+<div class="grid">
+    <div class="panel--padded--centered grid__col--12">
+        <h1 class="panel--centered">
+            <span id="price" style="font-size: 12vw;">
+                <i class="fas fa-angle-up"></i> Bitcoin </span>
+        </h1>
+    </div>
+</div>
+
+<script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+<script src="js/vertx-eventbus.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
