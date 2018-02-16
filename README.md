@@ -2,8 +2,8 @@
 All purpose ready to go responsive live ticker
 
 Can be used to display
-* Downloads
-* Daily Average Users ![Daily average users](https://i.imgur.com/ITdTXrC.png)
+* Downloads ![Downloads](https://i.imgur.com/ITdTXrC.png)
+* Daily Average Users
 * BTC price
 
 Just change the `getMessage()` function to return the data whatever data
@@ -13,7 +13,7 @@ Currently it gets the latest price of BTC and displays that as a placeholder ![p
 
 It is responsive so you can have it running up on your startup's office's TVs
 
-##Running details
+## Running details
 `mvn clean install`
 
 `mvn package`
