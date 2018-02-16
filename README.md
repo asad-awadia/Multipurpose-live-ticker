@@ -3,13 +3,13 @@ All purpose ready to go responsive live ticker
 
 Can be used to display
 * Downloads
-* ![Daily average users](https://imgur.com/ITdTXrC)
+* ![Daily average users](https://i.imgur.com/ITdTXrC.png)
 * BTC price
 
 Just change the `getMessage()` function to return the data whatever data
 you want to display on the browser
 
-Currently it gets the latest price of BTC and displays that as a ![placeholder](https://imgur.com/yP3nyib)
+Currently it gets the latest price of BTC and displays that as a ![placeholder](https://i.imgur.com/yP3nyib.png)
 
 It is responsive so you can have it running up on your startup's office's TVs
 
